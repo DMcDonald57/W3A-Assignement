@@ -5,3 +5,23 @@ div>img{
     height: 200px;
     width: auto;
 }
+#Paragraph2 + p {
+    font-weight: bold;
+}
+a:link {
+    background-color: aqua;
+}
+a:visited{
+    background-color: gold;
+    color: black;
+}
+header a:hover{
+    font-size: 30px;
+    background-color: chartreuse;
+    }
+
+h1:active{
+    font-size: 30px;
+    color: darkviolet;
+    font-family: cursive;
+}
