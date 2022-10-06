@@ -1,0 +1,41 @@
+
+$parafontweight: bold;
+$para-color: red;
+
+@use "header";
+
+h1:active{
+    font-size: 30px;
+    color: darkviolet;
+    font-family: cursive;
+        }
+
+div{
+    & p{color: $para-color;
+    }
+    &>img{
+        height: 200px;
+        width: auto;
+    }
+}
+#Paragraph1{
+    font-weight: $parafontweight;
+}
+#Paragraph2 + p{
+    font-weight: $parafontweight;
+}
+    a{
+    &:link {
+        background-color: aqua;
+    } 
+    &:visited{
+        background-color: gold;
+        color: black;    
+    }
+}
+nav > p{
+    font-weight: $parafontweight;
+    color: $para-color;
+}
+
+
