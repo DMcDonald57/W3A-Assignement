@@ -9,7 +9,7 @@ h1:active{
     font-size: 30px;
     color: darkviolet;
     font-family: cursive;
-    }
+}
 
 div{
     & p{color: $para-color;
@@ -25,8 +25,8 @@ div{
 #Paragraph2 + p{
     font-weight: $parafontweight;
 }
-    a{
-    &:link {
+a{
+    &:link{
         background-color: aqua;
     } 
     &:visited{
